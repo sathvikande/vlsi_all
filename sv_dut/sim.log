@@ -1,0 +1,16 @@
+ncverilog: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+TOOL:	ncverilog	10.20-s100: Started on Jul 11, 2026 at 11:15:14 BDT
+ncverilog
+	priority_encoder.sv
+	+access+rwc
+	-l
+	sim.log
+file: priority_encoder.sv
+endmodule
+        |
+ncvlog: *E,NOTSTT (priority_encoder.sv,32|8): expecting a statement [9(IEEE)].
+	module worklib.priority_encoder:sv
+		errors: 1, warnings: 0
+ncvlog: *F,NOTOPL: no top-level unit found, must have recursive instances.
+ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 2).
+TOOL:	ncverilog	10.20-s100: Exiting on Jul 11, 2026 at 11:15:14 BDT  (total: 00:00:00)
